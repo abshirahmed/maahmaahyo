@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind forms;
+
+@layer base {
+  html {
+    @apply h-full w-full
+  }
+
+  body {
+    @apply h-full w-full
+  }
+
+  #__next {
+    @apply flex flex-col h-full w-full
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+}
