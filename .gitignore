@@ -41,3 +41,6 @@ storybook-static
 **/public/workbox-*.*
 **/public/sw.*
 **/public/fallback-*
+
+# Local Netlify folder
+.netlify
